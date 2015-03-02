@@ -19,7 +19,8 @@ public class SquadSteerable implements Steerable<Vector2>{
 	private boolean independentFacing = false;
 	
 	private Vector2 maxLinearVelocity;
-	private float linear
+	private Vector2 linearVelocity;
+	private float angularVelocity;
 	
 	private Location2 location;
 
